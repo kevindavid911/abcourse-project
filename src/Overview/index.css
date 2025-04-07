@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #d2e8c9;
+}
+.sidebar {
+    width: 220px;
+    background: #85b88e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.menu a:hover, .menu .active {
+    background: #5a8a66;
+}
+.logout {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.overview-card {
+    background: #fdf3c8;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses {
+    margin-top: 20px;
+}
+.course-list {
+    display: flex;
+    flex-direction: column;
+}
+.course-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f5f5f5;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.profile-panel {
+    width: 250px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d6f5d6, #f9f9f9);
+    height: 100vh;
+    margin: 0;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #90cba3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul .active {
+    background: #80b894;
+    border-radius: 10px;
+}
+
+.logout {
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.chat-suggestions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-suggestions button {
+    background: #f0f0f0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.send-btn {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
